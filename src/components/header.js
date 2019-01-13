@@ -1,6 +1,8 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
-import React from 'react'
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
+
+import siteIcon from '../images/Newsletter-logo.png';
 
 const Header = ({ siteTitle }) => (
   <div
@@ -24,19 +26,19 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <img style={{ width: '100px' }} src={siteIcon} alt="Gatsby Icon" />
         </Link>
       </h1>
     </div>
   </div>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
