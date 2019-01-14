@@ -1,6 +1,7 @@
 ---
-header:
-  image: /assets/images/lights-sirens.png
+slug: '/My-PlayHome-Hospital-Review'
+title: 'My PlayHome Hospital Review'
+date: '2016-04-25'
 ---
 
 As a physician, my life is filled with paperwork, medical equipment, and (to a child) a whole lot of neat-looking machines. My 6-year-old daughter always jumps at the chance to come to the medical offices where I see patients. She loves to see firsthand the patients, the medical workers, and the environment where healthcare is administered. [My PlayHome Hospital][1], an interactive "hospital dollhouse" app from PlayHome Software Ltd, allows you to explore the inside (and outside!) of a hospital in quite a unique and immersive fashion. I occasionally let my daughter play too.   :)
@@ -17,11 +18,11 @@ Further exploration around the hospital takes us up the elevator to a patient ro
 
 ![][image-3]
 
-Back down the elevator and down the hall from the gift shop, you will find the emergency department, complete with multiple patient bays. An ER nurse is currently in bed 2 receiving two units of packed red blood cells - and she is still smiling! The computer screen next to the refrigerator shows multiple, clickable screens of patient information. Whoops, it looks like someone left the blood component refrigerator door open! 
+Back down the elevator and down the hall from the gift shop, you will find the emergency department, complete with multiple patient bays. An ER nurse is currently in bed 2 receiving two units of packed red blood cells - and she is still smiling! The computer screen next to the refrigerator shows multiple, clickable screens of patient information. Whoops, it looks like someone left the blood component refrigerator door open!
 
 ![][image-4]
 
-Elsewhere in the hospital, you can explore the radiology suite, which has a moving machine - I think it is fluoroscopy, but I cannot be entirely sure. 
+Elsewhere in the hospital, you can explore the radiology suite, which has a moving machine - I think it is fluoroscopy, but I cannot be entirely sure.
 
 ![][image-5]
 
@@ -37,18 +38,17 @@ There are several other interactive rooms in the hospital that I have not discu
 
 Now, if you will excuse me, I am going to go play this game some more and heat up some muffins in the break room   :)
 
-[1]:	https://appsto.re/i6Yb6Qm
-[2]:	https://itunes.apple.com/us/app/my-playhome-school/id922188121?mt=8 "My PlayHome School"
-[3]:	https://itunes.apple.com/us/app/my-playhome/id439628153?mt=8 "My Play Home"
-[4]:	https://itunes.apple.com/us/app/my-playhome-stores/id683942610?mt=8 "My PlayHome Stores"
-[5]:	https://itunes.apple.com/us/app/my-playhome-school/id922188121?mt=8 "My PlayHome School"
-[6]:	https://itunes.apple.com/us/app/my-playhome-lite/id451155849?mt=8 "lite"
-[7]:	http://www.myplayhomeapp.com/ "http://www.myplayhomeapp.com/"
-
-[image-1]:	/assets/images/hospital-lobby.png "Hospital Lobby"
-[image-2]:	/assets/images/doctor-office.png "Doctor's office"
-[image-3]:	/assets/images/patient-room.png "Patient Room"
-[image-4]:	/assets/images/ED.png "ED"
-[image-5]:	/assets/images/xray.png "X-ray"
-[image-6]:	/assets/images/xray-video.gif "X-ray Video"
-[image-7]:	/assets/images/lights-sirens.png "Lights and Sirens"
+[1]: https://appsto.re/i6Yb6Qm
+[2]: https://itunes.apple.com/us/app/my-playhome-school/id922188121?mt=8 'My PlayHome School'
+[3]: https://itunes.apple.com/us/app/my-playhome/id439628153?mt=8 'My Play Home'
+[4]: https://itunes.apple.com/us/app/my-playhome-stores/id683942610?mt=8 'My PlayHome Stores'
+[5]: https://itunes.apple.com/us/app/my-playhome-school/id922188121?mt=8 'My PlayHome School'
+[6]: https://itunes.apple.com/us/app/my-playhome-lite/id451155849?mt=8 'lite'
+[7]: http://www.myplayhomeapp.com/ 'http://www.myplayhomeapp.com/'
+[image-1]: /assets/images/hospital-lobby.png 'Hospital Lobby'
+[image-2]: /assets/images/doctor-office.png "Doctor's office"
+[image-3]: /assets/images/patient-room.png 'Patient Room'
+[image-4]: /assets/images/ED.png 'ED'
+[image-5]: /assets/images/xray.png 'X-ray'
+[image-6]: /assets/images/xray-video.gif 'X-ray Video'
+[image-7]: /assets/images/lights-sirens.png 'Lights and Sirens'
