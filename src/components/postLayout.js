@@ -8,6 +8,7 @@ export default class componentName extends Component {
     return (
       <Layout>
         <h1>{markdownRemark.frontmatter.title}</h1>
+        <p>{markdownRemark.timeToRead} minute read</p>
         <div
           dangerouslySetInnerHTML={{
             __html: markdownRemark.html,
@@ -22,6 +23,7 @@ export const query = graphql`
   query PostQuery($slug: String!) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
+      timeToRead
       frontmatter {
         slug
         title

@@ -10,6 +10,7 @@ const LISTING_QUERY = graphql`
       edges {
         node {
           excerpt
+          timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             slug
@@ -30,6 +31,7 @@ const Listing = () => (
           <Link to={`/posts${node.frontmatter.slug}`}>
             <h2>{node.frontmatter.title}</h2>
           </Link>
+          <p>{node.timeToRead} minute read</p>
           <p>{node.frontmatter.date}</p>
           <p>{node.excerpt}</p>
           <Link to={`/posts${node.frontmatter.slug}`}>Read More</Link>
