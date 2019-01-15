@@ -16,23 +16,15 @@ const HeaderWrapper = styled.div`
 const HeaderContainer = styled.div`
   margin: 0 auto;
   max-width: 960px;
-  padding: 1rem;
+  padding: 0.3rem;
 `;
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <HeaderContainer>
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          <img style={{ width: '100px' }} src={siteIcon} alt="Logo" />
-        </Link>
-      </h1>
+      <Link to="/">
+        <img style={{ width: '100px' }} src={siteIcon} alt="Logo" />
+      </Link>
     </HeaderContainer>
   </HeaderWrapper>
 );
