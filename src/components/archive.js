@@ -3,9 +3,10 @@ import { StaticQuery, graphql, Link } from 'gatsby';
 
 const ARCHIVE_POST_QUERY = graphql`
   query BlogPostArchive {
-    allMarkdownRemark(limit: 5, sort: {
-    fields: [frontmatter___date], order: DESC
-  }) {
+    allMarkdownRemark(
+      limit: 5
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           frontmatter {
@@ -35,11 +36,6 @@ const Archive = () => (
             ))}
           </ul>
         </aside>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </>
     )}
   />
