@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
+import Img from 'gatsby-image';
 
 import Header from './header';
 import Archive from './archive';
@@ -12,7 +13,8 @@ const MainLayout = styled.main`
   max-width: 90%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 40px;
 `;
 
 const Layout = ({ children }) => (
@@ -25,6 +27,13 @@ const Layout = ({ children }) => (
             description
           }
         }
+        file(relativePath: { regex: "/bg/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => (
@@ -33,6 +42,7 @@ const Layout = ({ children }) => (
           siteTitle={data.site.siteMetadata.title}
           siteDescription={data.site.siteMetadata.description}
         />
+        <Img fluid={data.file.childImageSharp.fluid} />
         <MainLayout>
           <div>{children}</div>
           <Archive />
